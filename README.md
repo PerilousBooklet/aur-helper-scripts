@@ -1,29 +1,25 @@
 ## AUR
 
-A collection of simple AUR helper scripts.
+My take on managing AUR packages in a simple and predictable way.
 
 ## Usage
 
-Download a new package with:
+Before you do anything, open a new terminal.
 
-`cd ~/.aur/packages`
+### Download a new package
 
-`git clone url`
+`cd .aur/packages`
 
-Build all downloaded packages with:
+es. `git clone https://aur.archlinux.org/airshipper.git`
 
-`cd ~/.aur`
+### Build and install all downloaded packages
+
+`cd .aur`
 
 `./build.sh `
 
-Install all built packages with:
+### Update to latest version all downloaded packages
 
-`cd ~/.aur`
-
-`./install.sh`
-
-Update to latest version all downloaded packages with:
-
-`cd ~/.aur`
+`cd .aur`
 
 `./update.sh`
